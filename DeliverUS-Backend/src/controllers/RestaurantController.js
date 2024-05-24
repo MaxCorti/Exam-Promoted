@@ -99,7 +99,7 @@ const destroy = async function (req, res) {
   }
 }
 
-// Solution
+// Solution SEGUNDO PUNTO
 const promote = async function (req, res) {
   const t = await sequelizeSession.transaction()
   try {
